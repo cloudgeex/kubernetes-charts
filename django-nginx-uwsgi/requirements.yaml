@@ -1,36 +1,36 @@
 dependencies:
   - name: nginx-uwsgi
     version: 0.4.1
-    repository: https://raw.githubusercontent.com/APSL/kubernetes-charts/master/packages
+    repository: https://raw.githubusercontent.com/cloudgeex/kubernetes-charts/master/packages
     alias: app
 
   - name: uwsgi
     version: 0.4.1
-    repository: https://raw.githubusercontent.com/APSL/kubernetes-charts/master/packages
+    repository: https://raw.githubusercontent.com/cloudgeex/kubernetes-charts/master/packages
     alias: crons
     condition: crons.enabled
 
   - name: uwsgi
     version: 0.4.1
-    repository: https://raw.githubusercontent.com/APSL/kubernetes-charts/master/packages
+    repository: https://raw.githubusercontent.com/cloudgeex/kubernetes-charts/master/packages
     alias: rq
     condition: rq.enabled
 
   - name: django-celery
     version: 0.1.0
-    repository: https://raw.githubusercontent.com/APSL/kubernetes-charts/master/packages
+    repository: https://raw.githubusercontent.com/cloudgeex/kubernetes-charts/master/packages
     alias: celery
     condition: celery.enabled
 
   - name: django-celery
     version: 0.1.0
-    repository: https://raw.githubusercontent.com/APSL/kubernetes-charts/master/packages
+    repository: https://raw.githubusercontent.com/cloudgeex/kubernetes-charts/master/packages
     alias: celery-beat
     condition: celery-beat.enabled
 
   - name: varnish
     version: 0.1.0
-    repository: https://raw.githubusercontent.com/APSL/kubernetes-charts/master/packages
+    repository: https://raw.githubusercontent.com/cloudgeex/kubernetes-charts/master/packages
     condition: varnish.enabled
 
   - name: redis
@@ -40,6 +40,6 @@ dependencies:
 
   - name: uwsgi
     version: 0.4.1
-    repository: https://raw.githubusercontent.com/APSL/kubernetes-charts/master/packages
+    repository: https://raw.githubusercontent.com/cloudgeex/kubernetes-charts/master/packages
     alias: migrations
     condition: migrations.enabled

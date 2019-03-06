@@ -1,5 +1,5 @@
 local := http:\/\/127.0.0.1:8879\/charts
-remote := https:\/\/raw.githubusercontent.com\/APSL\/kubernetes-charts\/master\/packages
+remote := https:\/\/raw.githubusercontent.com\/cloudgeex\/kubernetes-charts\/master\/packages
 
 all: help
 
