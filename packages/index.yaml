@@ -233,16 +233,6 @@ entries:
     urls:
     - django-uwsgi-0.1.0.tgz
     version: 0.1.0
-  gcp-sql-proxy:
-  - apiVersion: v1
-    appVersion: "1.0"
-    created: 2019-03-07T12:55:23.403465324-04:00
-    description: A Helm chart for google cloud sql proxy
-    digest: c527f3bacfab3dee2adf39153c8231bd338814dea4edb9520d2d1129107f13ad
-    name: gcp-sql-proxy
-    urls:
-    - gcp-sql-proxy-0.1.0.tgz
-    version: 0.1.0
   nginx:
   - apiVersion: v1
     created: 2019-03-07T12:55:23.404168892-04:00
